@@ -14,8 +14,8 @@ app.post('/login', (req,res)=>{
         res.json("Login success");
     }
     else{
-        res.json("Invalid cred");
+        res.json("Invalid Cred");
     }
 })
 
-app.listen(3000, ()=>(console.log("server running on http://localhost:3000")));
+app.listen(3000, ()=>(console.log("server running on http://localhost:3000")))
